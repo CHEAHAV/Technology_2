@@ -1,0 +1,32 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 500px;
+    /* margin: auto; */
+    border-radius: 50%;
+    animation-name: a;
+    animation-duration: 10s;
+    transition: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    25%{
+        background-color: aqua;
+        transform: translate(200px, -300px);
+    }
+    50%{
+        background-color: goldenrod;
+        transform: translate(800px, -600px);
+    }
+    
+    75%{
+        background-color: orange;
+        transform: translate(1200px, 300px);
+    }
+    100%{
+        background-color: goldenrod;
+        transform: translate(1500px, 600px);
+       
+    }
+}

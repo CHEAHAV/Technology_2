@@ -1,0 +1,38 @@
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    margin:auto;
+    overflow: scroll; /*សម្រាប់ scroll អត្ថបទ*/
+    /* overflow: auto; មាន scroll មួយចំហៀង */
+    /* overflow:hidden; ឃើញតែអក្សរនៅក្នុងប្រអប់*/
+    /* overflow:hidden; បើយើងអត់អោយកម្ពស់របស់ប្រអប់នោះ ប្រអប់នឹងរីកមាឌទៅតាម អក្សរ*/
+}
+.A{
+    /* height: 500px; */
+    width: 500px;
+    overflow: hidden;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+}
+.A .a{
+    width:22%;
+    height:400px;
+    background-color: yellow;
+    float: left;
+    margin-right:4%;
+}
+/*ប្រអប់ក្រោយគេបង្អស់*/
+.A .a:last-child{
+    margin-right: 0%;
+    background-color: blue;
+}
+/*ប្រអប់មុនគេបង្អស់*/
+.A .a:first-child{
+    background-color: cyan;
+}
+/*ប្រអប់ដែលយើងចង់កំណត់*/
+.A .a:nth-child(3){
+    background-color: pink;
+}

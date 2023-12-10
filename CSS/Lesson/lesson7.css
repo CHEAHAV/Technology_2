@@ -1,0 +1,14 @@
+.a{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    position:absolute;
+}
+.b{
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+    position: relative;
+    z-index: 1; /*រូបបង្ហាញឡើង*/
+    /*z-index:-1 រូបបង្ហាញនៅខាងក្រោម កន្លែងដដែល*/
+}

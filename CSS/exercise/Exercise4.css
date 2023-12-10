@@ -1,0 +1,54 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    margin:auto;
+    padding: 20px;
+}
+.a{
+    width:30%;
+    height: 70%;
+    background-color: blue;
+    float: left;
+    margin-right: 1%;
+}
+.b{
+    width:68%;
+    height: 70%;
+    background-color: green;
+    float:left;
+    margin-left: 1%;
+}
+.c{
+    width: 100%;
+    height: 28%;
+    background-color: green;
+    float:left;
+    margin-top:2%;
+}
+.b1{
+    width: 100%;
+    height: 68%;
+    background-color: black;
+    float:left;
+}
+.b2{
+    width: 100%;
+    height: 30%;
+    background-color: cyan;
+    float: left;
+    margin-top: 2%;
+}
+.c1{
+    width:20%;
+    height: 100%;
+    background-color: brown;
+    float:left;
+}
+.c2{
+    width:78%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin-left: 2%;
+}

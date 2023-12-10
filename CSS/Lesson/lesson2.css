@@ -1,0 +1,18 @@
+body{
+    /*background-image:url = ដាក់ផ្ទៃរូបភាព*/
+    background-image: url(https://img.freepik.com/free-photo/light-trails-buildings_1359-714.jpg?w=1380&t=st=1695618944~exp=1695619544~hmac=6ed322d8ba989aa25164873736bca8477f6bdecabd620cacc7e80c63956420d4);
+    background-repeat: no-repeat;/*កុំអោយរូបភាពកើតឡើងដដែលៗ*/
+    /*repeat-x = ចេញរូបតែជួរដេក & repeat-y = ចេញរូបតែជួរឈ*/
+    background-attachment: fixed; /*fixed = អោយរូបភាពរត់តាមការ scrol*/
+    background-size:cover; /*backround-size:cover = ដាក់ផ្ទៃរូបភាពអោយពេញអេក្រង់*/
+    /*background-size:contain = ទំហំរូបភាពដើម*/
+    /*background-position:center = រូបភាពនៅចំកណ្ដាលទំហំដែលបានកំណត់*/
+}
+.style{
+    color: red;
+    
+}/* marquee = អក្សររត់*/
+marquee{
+    color: darkviolet;
+    size: 1000;
+}

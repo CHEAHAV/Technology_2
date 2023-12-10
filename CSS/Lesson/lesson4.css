@@ -1,0 +1,27 @@
+#a{
+    text-decoration: underline; /* underline = បន្ទាត់នៅខាងក្រោមអក្សរ*/
+}
+.b{
+    text-decoration: line-through; /*​line-throgh = បន្ទាត់ឆូតពីលើអក្សរ*/
+}
+.c{
+    text-decoration: overline; /* overline = បន្ទាត់នៅខាងលើអក្សរ*/
+}
+.d{
+    text-decoration: none; /*none = ដោះបន្ទាត់ចេញ*/
+}
+#e{
+    text-transform: uppercase; /*upercase = អក្សរធំទាំងអស់ & lowercase = អក្សរតូចទាំងអស់*/
+}
+.f{
+    text-transform: capitalize; /* capitalize = អក្សរមុនដំបូងធំទាំងអស់*/
+}
+.g{
+    letter-spacing: 20px; /*letter-spacing = គម្លាតអក្សរ*/
+}
+.h{
+    line-height: 5px;
+}
+#i{
+    text-shadow: 5px 7px 3px red; /*text-shadow = ស្រមោល 5px=ទៅស្ដាំ 7px=ទៅក្រោម 3px=កម្រិតព្រាល */
+}

@@ -1,0 +1,45 @@
+.a {
+    width: 200px;
+    height: 200px;
+    margin:200px auto;
+    background-color: red;
+    animation-name: por; /*ឈ្មោះចលនា​*/
+    animation-duration: 10s;/*រយះពេលធ្វើចលនា*/
+    animation-iteration-count: infinite; /*​ ដើរវិលជុំគ្មានទីបញ្ចប់*/
+}
+/*​កំណត់ចលនា គិតជាភាគរយ*/
+@keyframes por {
+    0% {
+        background-color: green;
+    }
+    20% {
+        background-color: brown;
+        transform: translateX(200px);
+        border-radius: 50%;
+        transform: rotate(360deg);
+        transform: scale(150%, 150%);
+    }
+    40% {
+        background-color: yellow;
+        transform: translateY(-500px);
+        transform: scale(100%, 100%);
+    }
+    60% {
+        background-color: blue;
+        transform: translateX(-100px);
+        transform: scale(50%, 50%);
+    }
+    80% {
+        background-color: gold;
+        transform: translateY(700px);
+        border-radius: 50%;
+        transform:rotate(720deg);
+        transform: scale(200%, 200%);
+    }
+    100% {
+        background-color: cyan;
+        transform: translate(auto);
+        transform: scale(100%, 100%);
+    }
+    /* ចំណាំ បើប្រើ rotate អត់ scale បើ ប្រើ  scale អត់ rotate*/
+}

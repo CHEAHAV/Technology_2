@@ -1,0 +1,21 @@
+.box{
+    background-color: green;
+    width:20%;
+    height: 100px;
+    display: inline-block;
+    /* display: inline; ប្រើជាជួរដេក តែ មិនអាចបង្កើតទំហំបាន */
+    /* display: block; ប្រើជាជួរឈ */
+    
+}
+ .a{
+    background-color: red;
+}
+ .b{
+    background-color: cyan;
+}
+ .c{
+    background-color: brown;
+}
+ .d{
+    background-color: yellow;
+}

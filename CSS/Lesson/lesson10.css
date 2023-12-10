@@ -1,0 +1,27 @@
+.main{
+    width: 700px;
+    height: 400px;
+    background-color: red;
+    display: flex;/*កំណត់ទិសដៅរបស់ប្រអប់*/
+    /* flex-direction: row-reverse; កំណត់ទិសដៅរបស់ប្រអប់ */
+    /* justify-content: flex-start;/*ប្រអប់ចេញពីឆ្វេងទៅស្ដាំ*/
+    /* justify-content: flex-end;/*ប្រអប់ចេញពីស្ដាំមកឆ្វេង*/
+    /* justify-content: center; ប្រអប់នៅចំកណ្ដាល */
+    justify-content: space-evenly; /*គម្លាតប្រអប់ស្មើៗគ្មា*/
+    /* justify-content: space-between; គម្លាតកណ្ដាល */
+    /* justify-content: space-around; ជុំវិញប្រអប់មានគម្លាតស្មើៗគ្នា */
+    align-items: flex-end;/*ចេញពីក្រោមទៅលើ*/
+}
+/* ចំណាំ​ justify-content ដើរជាជួរដេក & align-ietms ដើរជាជួរឈ */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* ចំណាំ ដើម្បីអោយ អក្សរនៅចំកណ្ដាលប្រអប់យើងត្រូវប្រើ 3 property នៅក្នុងប្រអប់ដែលក្ដោបអក្សរទៅនោះ មាន 
+ display : flex; & justify-content:center; & align-items:center; */

@@ -1,0 +1,34 @@
+h1{
+    font-size: 20px; /*កំណត់ទំហំអក្សរ*/
+    font-style: italic; /*ទ្រេត*/
+}
+p{
+    font-weight: bold; /*អក្សរដិត*/
+    font-size: 50px;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    margin:auto;
+    padding: 20px;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    padding: 20px;
+    box-sizing: border-box; /*បង្រួមប្រអប់កុំអោយខូចទ្រង់ទ្រាយ*/
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}

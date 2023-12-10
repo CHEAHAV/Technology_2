@@ -1,0 +1,67 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url('Picture/technology.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.div{
+    width:150px;
+    overflow: hidden;
+    margin: auto;
+    background-color:white;
+    margin-bottom: 120px;
+}
+.div ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.div ul li{
+    display: block;
+    padding: 5px;
+    border-bottom:1px solid black ;
+}
+.div ul li a{
+    
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+
+}
+.div ul li a:hover{
+    opacity: 1;
+    transform: scale(150%);
+}
+
+.a{
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.a ul li{
+    float: left;
+}
+.a ul li a{
+    text-decoration: none;
+    margin: 0px 9px;
+    font-family: 'Khmer', sans-serif;
+}
+.a ul li a:hover{
+    color: aqua;
+    background-color: brown;
+}

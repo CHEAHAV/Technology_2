@@ -1,0 +1,25 @@
+.a{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: yellow;
+    border: 10px solid blue; /*ប្រអប់ព័ទ្ធពីលើ*/
+    outline: 15px dashed green; /*ប្រអប់ព័ទ្ធពីលើ*/
+    opacity: 0.7px; /*កម្រិតព្រាល 0->1*/
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin:200px, auto;
+    transition: 1s; /*រយះពេលធ្វើចលនា*/
+    /* transform: translate(100px, 200px ); រំកិលទីតាំងមុនដាក់ mount ពីលើ */
+}
+.box:hover{
+    transform: translate(100px, 200px); /*រំកិលទីតាំងពេលដាក់ mount ពីលើ*/
+    transform: rotate(50deg); /*បង្វិល*/
+    transform: scale(120%, 120%); /*បង្រីកបង្រួមរូបភាព*/
+    transform: skew(50deg); /*ធ្វើអោយប្រអប់ទ្រេត*/
+    transform: matrix(1, 1, -1, 1, 80, 80); /*ធ្វើអោយប្រអប់ទ្រេត ហើយធំជាងមុខ*/
+}

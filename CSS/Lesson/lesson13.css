@@ -1,0 +1,25 @@
+.contentner {
+    width: 100%;
+    height: 100px;
+    /* display: none; = ប្រើសម្រាប់លុប element */
+    display: flex;/*display: flex ប្រើជាមួយប្រអប់ក្ដោប សម្រាប់ធ្វើជាជួរដេក ហើយវានឹងបំពេញទំហំប្រអប់បើសិនប្រអប់មិនទាន់ពេញ*/
+    background-color: black;
+}
+.box{
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
+.box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: red;
+    
+}
+.box4{
+    background-color: cyan;
+}
