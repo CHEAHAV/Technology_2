@@ -1,0 +1,301 @@
+.main{
+    width: 700px;
+    height: 250px;
+    margin:auto;
+    background-color: grey;
+}
+.main .header{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    font-size: 20px;
+    font-family: Lora;
+    color:white;
+    animation-name: a;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.main .left{
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+.left .card{
+    width: 80%;
+    height: 75%;
+    background-image: url('photos/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+.card .sim{
+    height: 20%;
+    width: 50%;
+    float: left;
+    margin-bottom: 2%;
+}
+.sim img{
+    width: 25%;
+    height: 80%;
+    transform: translateY(-2px);
+}
+.card .master{
+    height: 20%;
+    width: 50%;
+    float: left;
+    margin-bottom: 2%;
+}
+.master img{
+    width: 30%;
+    height: 100%;
+    float:right;
+    transform: translateY(-5px);
+}
+.card .card-number{
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-top: 5%;
+}
+.card-number .txt{
+    width: 100%;
+    height: 35%;
+}
+.txt p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Lora;
+    color:white;
+    opacity: 0.8;
+}
+.card-number .number{
+    width: 100%;
+    height: 65%;
+    float: left;
+}
+.number h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color:white;
+}
+.card .card-holder{
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-top: 7%;
+}
+.card-holder .name-exp{
+    width: 100%;
+    height: 35%;
+}
+.name-exp .holder-name{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.holder-name p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Lora;
+    color:white;
+    opacity: 0.8;
+}
+.name-exp .expiration{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.expiration p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Lora;
+    color:white;
+    opacity: 0.8;
+}
+.card-holder .name-valid{
+    width: 100%;
+    height: 65%;
+}
+.name-valid .name{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.name h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Lora;
+    color:white;
+}
+.name-valid .valid{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.valid .thru{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.thru p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Lora;
+    color:white;
+    opacity: 0.8;
+}
+.valid .icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon .fa-solid{
+    font-size: 20px;
+    color:white;
+}
+.valid .my{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Lora;
+    color:white;
+}
+.main .right{
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+.right .first{
+    width: 95%;
+    height: 30%;
+    float: left;
+    margin-top: 1%;
+}
+.first .yn{
+    width: 100%;
+    height: 35%;
+}
+.yn p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Lora;
+    color:white;
+    opacity: 0.8;
+    transform: translateY(7px);
+}
+.first .cn{
+    width: 100%;
+    height: 65%;
+}
+.cn input{
+    width: 98%;
+    height: 88%;
+    background-color: white;
+    color:black;
+    box-shadow: none;
+    border-radius:5px
+}
+.right .middle{
+    width: 95%;
+    height: 30%;
+    float: left;
+    margin-top: 1%;
+}
+.middle .yn{
+    width: 100%;
+    height: 35%;
+}
+.middle .cn{
+    width: 100%;
+    height: 65%;
+}
+.right .last{
+    width: 95%;
+    height: 30%;
+    float: left;
+    margin-top: 1%;
+}
+.last .yn{
+    width: 100%;
+    height: 35%;
+}
+.last .cn{
+    width: 40%;
+    height: 65%;
+}
+@keyframes a{
+    10%{color:blue;}
+    20%{color:red;}
+    30%{color:yellow;}
+    40%{color:green;}
+    50%{color:cyan;}
+    60%{color:brown;}
+    70%{color:gold;}
+    80%{color:blueviolet;}
+    90%{color:chartreuse;}
+}
+@media (max-width: 575.98px) {
+	.main{
+        width: 100%;
+        height: 500px;
+        margin:auto;
+        background-color: grey;
+    }
+    .main .header{
+        width: 100%;
+        height: 10%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header h1{
+        font-size: 18px;
+        font-family: Lora;
+        color:white;
+        animation-name: a;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    .main .left{
+        width: 98%;
+        height:45%;
+        float: left;
+    }
+    .main .right{
+        width: 100%;
+        height: 45%;
+        float: left;
+    }
+    .number h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 27px;
+        color:white;
+    }
+}

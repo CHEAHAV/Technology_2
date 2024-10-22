@@ -1,0 +1,46 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+.main{
+    width: 360px;
+    height: 220px;
+    background-color:cyan;
+    margin:auto;
+    border-radius:10px;
+}
+.main h1{
+    font-size: 30px;
+    font-family: Lora;
+}
+.main h2{
+    font-size: 30px;
+    font-family: Lora;
+    transform: translateX(40px);
+}
+p{
+    margin-top: 40px;
+    transform: translateX(20px);
+    margin-bottom: 0px;
+}
+p input{
+    width: 50px;
+    height: 20px;
+}
+h5{
+    transform: translateX(70px);
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 15px;
+}
+span{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 2px;
+}
+input{
+    background-color: red;
+}
+input ::placeholder{
+    color:white;
+}

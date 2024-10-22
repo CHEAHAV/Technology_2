@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 1200px;
+    overflow: hidden;
+    background-color:blue;
+    margin: auto;
+}
+.main .header {
+    width: 100%;
+    height: 70px;
+}
+.header .logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    font-size: 40px;
+    float:right;
+    color:white;
+}
+.header .menu1{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu1 ul li{
+    padding: 10px;
+    float: left;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header .menu2{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu2 ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu2 ul li{
+    padding: 20px;
+    float: left;
+}
+.menu2 ul li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+.menu2 ul li a button{
+    background-color: cyan;
+    border-radius: 3px;
+    color:white;
+}
+.main .content{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .captions{
+    display: inline;
+}

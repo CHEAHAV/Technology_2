@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js1</title>
+</head>
+<style>
+    #js1{
+        font-size: 40px;
+        color:red;
+    }
+    img{
+        height: 300px;
+    }
+</style>
+<body>
+    <h1 id="js1">Hello world</h1>
+    <input type="button" value="click" onclick="js1()">
+    <input type="button" value="Hide" onclick="hide()">
+    <input type="button" value="Show" onclick="show()"><br><br>
+
+    <img src="https://phorn-khouch.netlify.app/image/shirt1.png" alt="" id="picture">
+    <input type="button" value="changsIMG" onclick="IMG()"><br><br>
+    <!-- Input onclick in IMG use for click on Picture -->
+    <img src="https://phorn-khouch.netlify.app/image/h1.png" alt="" id="pic" onclick="changPic()"><br><br>
+
+    <img src="https://phorn-khouch.netlify.app/image/pant1.png" alt="" id="pant" onmouseover="changPant()" onmouseout="oldPant()">
+</body>
+<script>
+    function js1(){
+        //document.getElementById use for call function js1
+        //innerHTML use for changs HTML content
+        document.getElementById ('js1').innerHTML='Hello javasrcipt';
+        //style.color use for input color
+        document.getElementById ('js1').style.color='green';
+    }
+    function hide(){
+        document.getElementById('js1').style.display='none';
+    }
+    function show(){
+        document.getElementById('js1').style.display='block';
+    }
+    function IMG(){
+        //setAttribute use for changs picture from img (src)
+        document.getElementById('picture').setAttribute('src','https://phorn-khouch.netlify.app/image/shirt2.png');
+    }
+    function changPic(){
+        document.getElementById('pic').setAttribute('src','https://phorn-khouch.netlify.app/image/h2.png');
+    }
+    function changPant(){
+        document.getElementById('pant').setAttribute('src','https://phorn-khouch.netlify.app/image/pant2.png');
+    }
+    function oldPant(){
+        document.getElementById('pant').setAttribute('src','https://phorn-khouch.netlify.app/image/pant1.png');
+    }
+</script>
+</html>

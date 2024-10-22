@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise1</title>
+    <script src="exercise1.js"></script>
+</head>
+<style>
+    #box{
+        width: 800px;
+        height: 1300px;
+        margin: auto;
+        background-color: cyan;
+    }
+    #box #bigBox{
+        width: 100%;
+        height: 80%;
+        background-color: red;
+    }
+    #box #smallBox{
+        width: 24.25%;
+        margin-right: 1%;
+        margin-top:2%;
+        height: 19%;
+        float: left;
+        background-color:yellow;
+        transition: 0.5s;
+    }
+    #smallBox:hover{
+        transform:rotate(-15deg);
+    }
+    #bigBox img{
+        width: 100%;
+        height: 100%;
+    }
+    #smallBox img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+    <div id="box">
+        <div id="bigBox"><img src="https://phorn-khouch.netlify.app/image/shirt1.png" alt="" id="mainPic"></div>
+        <div id="smallBox"><img src="https://phorn-khouch.netlify.app/image/shirt1.png" alt="" id="picOne" onclick="one()"></div>
+        <div id="smallBox"><img src="https://phorn-khouch.netlify.app/image/shirt2.png" alt="" id="PicTwo" onclick="two()"></div>
+        <div id="smallBox"><img src="https://phorn-khouch.netlify.app/image/shirt3.png" alt="" id="picThree" onclick="three()"></div>
+        <div id="smallBox" style="margin-right: 0px;"><img src="https://phorn-khouch.netlify.app/image/shirt4.png" alt="" id="picFour" onclick="four()"></div>
+    </div>
+</body>
+<script>
+</script>
+</html>

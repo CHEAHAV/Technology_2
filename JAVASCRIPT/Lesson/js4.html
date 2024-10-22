@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js4</title>
+</head>
+<body>
+    <!-- onkeyup use to call value of fuction -->
+    <input type="text" id="kilo" placeholder="kilo" value="" onkeyup="test()">
+    <p style="margin-left: 70px;">To</p>
+    <input type="text" id="mate" placeholder="mate" value=""><br><br><br>
+
+    <input type="text" id="mm" placeholder="mate" value="" onkeyup="test1()">
+    <p style="margin-left: 70px;">To</p>
+    <input type="text" id="kk" placeholder="kilo" value="">
+</body>
+<script>
+    function test(){
+        var k=document.getElementById('kilo').value;
+        var m=document.getElementById('mate');
+        m.value=parseFloat(k)*1000;
+
+    }
+    function test1(){
+        var mmm=document.getElementById('mm').value;
+        var kkk=document.getElementById('kk');
+        kkk.value=parseFloat(mmm)/1000;
+    }
+</script>
+</html>

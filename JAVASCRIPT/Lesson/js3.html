@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js3</title>
+</head>
+<body>
+    <input type="text" id="value1" value="">
+    <input type="text" id="value2" value="">
+    <input type="text" id="value3" value="">
+    <input type="button" value="Click" onclick="test()"><br><br><br>
+
+    <input type="text" id="show1" value="">
+    <input type="text" id="show2" value="">
+    <input type="text" id="show3" value="0">
+    <input type="button" value="Click" onclick="element()">
+</body>
+<script>
+        var a=20;
+        var b=30;
+    function test(){
+        var num1=document.getElementById('value1').value;
+        // alert(num1); to use value1 for alert on screen
+        document.getElementById('value2').value=num1;
+        document.getElementById('value3').value=num1;
+    }
+
+    function element(){
+        var one=document.getElementById('show1').value;
+        var two=document.getElementById('show2').value;
+        //parseInt is chang string to int
+        document.getElementById('show3').value=parseInt(one)+parseInt(two);
+    }
+</script>
+</html>

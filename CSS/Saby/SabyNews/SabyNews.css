@@ -1,0 +1,732 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    background-color:white;
+}
+.main .header{
+    width: 100%;
+    height: 250px;
+}
+.header .logo{
+    width: 100%;
+    height: 170px;
+    background-color: black;
+}
+.logo .picture1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.picture1 a{
+    text-decoration: none;
+}
+.picture1 a img{
+    width:120px;
+    height:120px;
+    margin-top: 20px;
+}
+.logo .picture2{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.picture2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none ;
+}
+.picture2 a img {
+    width:80%;
+    height: 80%;
+}
+.header .menu{
+    height:80px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul li{
+    padding:18px 7px;
+    float:left;
+}
+.menu ul li a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Angkor;
+    color:white;
+}
+.menu ul li:hover{
+    background-color: brown;
+}
+.contents{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+}
+.contents .kbal{
+    width: 100%;
+    height: 700px;
+    margin-top: 12px;
+}
+.kbal .left{
+    width:69%;
+    height: 100%;
+    background-color:black;
+    float: left;
+}
+.left .a1{
+    width: 60%;
+    height: 50%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Sothearith(1)/fold16/6576a93650d2e_1702275360_large.jpg');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.a1 .home{
+    width:150px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.home h1{
+    font-size: 20px;
+    font-family: Moul;
+    color:white;
+}
+.a1 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a1 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(150px);
+    transition: 0.5s;
+}
+.a1 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a1 .captions h2:hover{
+    transform: translateY(97px);
+    color:red;
+}
+.a1 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a1 .date{
+    width: 100%;
+    height: 10%;
+}
+.date span{
+    color:white;
+    font-family: Content;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.left .a2{
+    width: 39%;
+    height: 50%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Ent-Int/Others/Other-70/652e3b8c1b52e_1697528700_large.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+}
+.a2 .home{
+    width:150px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a2 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a2 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(130px);
+    transition: 0.5s;
+}
+.a2 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a2 .captions h2:hover{
+    transform: translateY(45px);
+    color:red;
+}
+.a2 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a2 .date{
+    width: 100%;
+    height: 10%;
+}
+.left .a3{
+    width: 50%;
+    height: 49%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2023/December/Week-(26)/657810a688767_1702367340_large.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 1%;
+}
+.a3 .home{
+    width:200px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a3 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a3 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(165px);
+    transition: 0.5s;
+}
+.a3 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a3 .captions h2:hover{
+    transform: translateY(25px);
+    color:red;
+}
+.a3 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a3 .date{
+    width: 100%;
+    height: 10%;
+}
+.left .a4{
+    width: 49%;
+    height: 49%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2023/December/Week-(26)/6577d329f21ab_1702351620_large.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.a4 .home{
+    width:250px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a4 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a4 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(130px);
+    transition: 0.5s;
+}
+.a4 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a4 .captions h2:hover{
+    transform: translateY(45px);
+    color:red;
+}
+.a4 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a4 .date{
+    width: 100%;
+    height: 10%;
+}
+.kbal .right{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left:1%;
+}
+.right .b1{
+    width: 100%;
+    height:50%;
+    margin-bottom:2%
+}
+.right .b2{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.home-page{
+    width: 75%;
+    height: 750px;
+    margin:auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.home-page .title{
+    width: 100%;
+    height: 10%;
+    border-bottom: 5px solid red;
+}
+.title .box{
+    height: 100%;
+    width: 15%;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.box h5{
+    color: white;
+    font-size: 20px;
+    font-family: Koulen;
+    margin-left: 30px;
+}
+.fa-solid{
+    color:white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.home-page .boxa{
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 2px rgb(82, 76, 76);
+}
+.boxa .boxa1{
+    width: 100%;
+    height: 45%;
+}
+.boxa1 .boxb{
+    height: 100%;
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+    background-color: rgb(46, 45, 43);
+}
+.boxb:last-child{
+    margin-right: 0px;
+}
+.boxa1 .picture{
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.picture:hover{
+    transform: scaleY(90%);
+}
+.boxa1 .captions{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+.captions h3{
+    font-size: 15px;
+    font-family: Content;
+    margin: 0px 20px;
+    padding: 0px;
+}
+.boxa .boxa2{
+    width: 100%;
+    height: 55%;
+}
+.boxa2 .boxaa1{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.boxaa1 .boxx{
+    height: 49%;
+    width: 24.25%;
+    float: left;
+    margin-right:1%;
+    margin-bottom: 1%;
+}
+.boxx:nth-child(4){
+    margin-right: 0px;
+}
+.boxx:nth-child(8){
+    margin-right: 0px;
+}
+.boxx .box-picture{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+}
+.box-picture .bp{
+    height:100%;
+    width: 100%;
+    transition: 0.5s;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bp:hover{
+    transform: scaleY(90%);
+}
+.boxx .box-title{
+    height: 40%;
+    width: 100%;
+    background-color:white;
+}
+.box-title p{
+    margin:0px 10px;
+    font-size:13px;
+    font-family: Content;
+}
+.boxa2 .boxaa2{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxaa2 img{
+    width: 96%;
+    height: 25%;
+}
+.komsan{
+    width: 75%;
+    height: 650px;
+    margin:auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.komsan .title{
+    width: 100%;
+    height: 10%;
+    border-bottom: 5px solid rgb(203, 55 , 122);
+}
+.komsan .title .box{
+    height: 100%;
+    width: 15%;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    background: rgb(203, 55, 122);
+    display: flex;
+    align-items: center;
+}
+.box h5{
+    color: white;
+    font-size: 20px;
+    font-family: Koulen;
+    margin-left: 30px;
+}
+.komsan .boxa{
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:white;
+    box-shadow: 5px 5px 5px 2px rgb(82, 76, 76);
+}
+.boxa .small{
+    width: 100%;
+    height: 100%;
+}
+.small .a1{
+    width: 29%;
+    height: 100%;
+    float: left;
+    margin-right: 1%;
+    background-color:black;
+}
+.a1 .a-pic{
+    width: 100%;
+    height:65%;
+    transition: 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.a-pic:hover{
+    transform: scaleY(90%);
+}
+.a1 .a-title{
+    width: 100%;
+    height: 35%;
+    background-color:palevioletred;
+}
+.a-title h2{
+    font-size: 22px;
+    font-family: Content;
+    margin:0px 20px;
+    color:white;
+}
+.small .a2{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.a2 .boxx{
+    height: 49%;
+    width: 24.25%;
+    float: left;
+    margin-right:1%;
+    margin-bottom: 1%;
+}
+.boxx:nth-child(4){
+    margin-right: 0px;
+}
+.boxx:nth-child(8){
+    margin-right: 0px;
+}
+.boxx .box-picture{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+}
+.box-picture .bp{
+    height:100%;
+    width: 100%;
+    transition: 0.5s;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bp:hover{
+    transform: scaleY(90%);
+}
+.boxx .box-title{
+    height: 40%;
+    width: 100%;
+    background-color:white;
+}
+.box-title p{
+    margin:0px 10px;
+    font-size:13px;
+    font-family: Content;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+}
+.footer .mm{
+    width: 75%;
+    height: 100%;
+    margin:auto;
+}
+.mm .m1{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.m1 img{
+    width: 30%;
+    height: 20%;
+    margin-top: 5%;
+}
+.m1 p{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+}
+.m1 span{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+}
+.m1 h3{
+    font-size: 25px;
+    font-family: Content;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.m1 h4{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    margin-top: 5px;
+}
+.mm .m2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.m2 .mm1{
+    width: 100%;
+    height: 59%;
+    margin-top: 5%;
+}
+.mm1 h2{
+    font-size: 40px;
+    font-family: Content;
+    color:white;
+    margin:0px
+}
+.mm1 p{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    margin-bottom: 10px;
+}
+.mm1 span{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    margin-bottom: 0px;
+}
+.m2 .mm2{
+    width: 100%;
+    height: 30%;
+    display:flex;
+    align-items: center;
+}
+.mm2 ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.mm2 ul li{
+    float: left;
+    margin: 0px;
+}
+.mm2 ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+    font-size: 40px;
+}
+a:nth-child(1){
+    padding-left: 0px;
+}
+.mm2 ul li a img{
+    width: 55px;
+    transform: translateX(-39px);
+    height: 55px;
+}
+.mm .m3{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.m3 .c1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.c1 h1{
+    font-size: 30px;
+    font-family: Content;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}
+.m3 .c2{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+.c2 ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.c2 ul li{
+    float: left;
+    margin: 0px;
+}
+.c2 ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.fa-brands{
+    width: 55px;
+    height: 55px;
+    color:white;
+    transform: translateX(-39px);
+}
+.m3 .c3{
+    width: 100%;
+    height: 35%;
+}
+.c3 h1{
+    font-size: 25px;
+    font-family: Content;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}
